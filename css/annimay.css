@@ -59,13 +59,13 @@
 
 @keyframes ann-scale-up {
     25% {
-        -webkit-transform: scale(1.009);
-        transform: scale(1.009);
+        -webkit-transform: scale(1.03);
+        transform: scale(1.03);
     }
 
     75% {
-        -webkit-transform: scale(1.01);
-        transform: scale(1.01);
+        -webkit-transform: scale(1.04);
+        transform: scale(1.04);
     }
 }
 
@@ -1282,4 +1282,41 @@
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+
+/*Moving Gradient Background Opposite*/
+.ann-moving-gradient-opposite {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    background: linear-gradient(270deg, #d226bc, #269bd2, #26d2ad, #d5b841);
+    background-size: 800% 800%;
+
+    -webkit-animation: ann-moving-gradient-opposite 30s ease infinite;
+    -moz-animation: ann-moving-gradient-opposite 30s ease infinite;
+    -o-animation: ann-moving-gradient-opposite 30s ease infinite;
+    animation: ann-moving-gradient-opposite 30s ease infinite;
+}
+
+@-webkit-keyframes ann-moving-gradient-opposite {
+    0%{background-position:100% 50%}
+    50%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+@-moz-keyframes ann-moving-gradient-opposite {
+    0%{background-position:100% 50%}
+    50%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+@-o-keyframes ann-moving-gradient-opposite {
+    0%{background-position:100% 50%}
+    50%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+@keyframes ann-moving-gradient-opposite {
+    0%{background-position:100% 50%}
+    50%{background-position:0% 50%}
+    100%{background-position:100% 50%}
 }

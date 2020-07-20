@@ -6,6 +6,8 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
+[Demo](https://google.com)  |
+[Tutorial](https://google.com)
 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 
 ![](./src/header.png)

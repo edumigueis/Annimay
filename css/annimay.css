@@ -7,6 +7,10 @@
  * annimay.css Copyright Eduardo Migueis 2020.
  */
 
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
 /* Pulse */
 @-webkit-keyframes ann-pulse {
     25% {
@@ -851,10 +855,6 @@
     }
 }
 
-* {
-    -webkit-font-smoothing: antialiased;
-}
-
 /* Rectangle In */
 .ann-rectangle-in {
     display: inline-block;
@@ -1172,6 +1172,7 @@
         box-shadow: 4px 4px 60px #2098D1;
     }
 }
+
 @-webkit-keyframes animateGlow {
     0% {
         box-shadow: 4px 2px 60px #1a88bb;
@@ -1185,6 +1186,7 @@
         box-shadow: 4px 4px 60px #2098D1;
     }
 }
+
 /*Fall Right*/
 .ann-fall-right {
     display: inline-block;

@@ -1163,7 +1163,19 @@
         box-shadow: 4px 4px 60px #2098D1;
     }
 }
+@-webkit-keyframes animateGlow {
+    0% {
+        box-shadow: 4px 2px 60px #1a88bb;
+    }
 
+    50% {
+        box-shadow: 5px 4px 70px #dd37dd;
+    }
+
+    100% {
+        box-shadow: 4px 4px 60px #2098D1;
+    }
+}
 /*Fall Right*/
 .ann-fall-right {
     display: inline-block;

@@ -1994,7 +1994,7 @@
 }
 
 /*Corner Grow*/
-.ann-corner-grow{
+.ann-corner-grow {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -2004,11 +2004,13 @@
     transform-origin: right center;
     transition: 0.5s box-shadow ease-in-out;
 }
+
 .ann-corner-grow:hover {
     box-shadow: 6px 6px 0 6px #36FF78, -6px -6px 0 6px #36FF78;
 }
+
 /*Trim and Outline*/
-.ann-trim-outline{
+.ann-trim-outline {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -2018,14 +2020,15 @@
     transform-origin: right center;
     transition: 0.5s all ease-in-out;
 }
+
 .ann-trim-outline:hover {
     background: #2ecc71;
     border: none;
     box-shadow: 0 0 0 2px white, 0 0 0 3px #2ecc71, 0 0 0 2px white inset, 0 0 0 5px #2ecc71, 7.5px 7.5px 0 2.5px white, 10px 10px 0 5px #2ecc71;
-  }
+}
 
-  /*Outlined Border*/
-  .ann-outlined-border{
+/*Outlined Border*/
+.ann-outlined-border {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -2034,11 +2037,12 @@
     -webkit-transform-origin: right center;
     transform-origin: right center;
     transition: 0.5s box-shadow ease-in-out;
-  }
-  .ann-outlined-border:hover{
+}
+
+.ann-outlined-border:hover {
     box-shadow: 0 0 0 1px white, 0 0 0 2px #2ecc71, 0 0 0 5px #2ecc71, 0 0 0 6.5px white, 0 0 0 7px #2ecc71;
     border-radius: 100px;
     background: none;
     border: none;
     color: #2ecc71;
-  }
+}

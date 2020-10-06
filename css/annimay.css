@@ -10,7 +10,10 @@
 * {
     -webkit-font-smoothing: antialiased;
 }
-
+:root{
+    --accent-color: #36ff78;
+    --main-color: white;
+}
 /* Pulse */
 @-webkit-keyframes ann-pulse {
     25% {
@@ -264,7 +267,7 @@
 }
 
 .ann-shine::after {
-    background: #36FF78;
+    background: var(--accent-color);
     content: "";
     height: 155px;
     left: -75px;
@@ -423,7 +426,7 @@
 
 .ann-bg-fill:hover,
 .ann-bg-fill:focus {
-    box-shadow: inset 0 0 0 2em #36FF78;
+    box-shadow: inset 0 0 0 2em var(--accent-color);
 
 }
 
@@ -434,7 +437,7 @@
 
 .ann-raise:hover,
 .ann-raise:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em #36FF78;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--accent-color);
     transform: translateY(-0.25em);
 }
 
@@ -446,7 +449,7 @@
 
 .ann-bg-slide:hover,
 .ann-bg-slide:focus {
-    box-shadow: inset 30em 0 0 0 #36FF78;
+    box-shadow: inset 30em 0 0 0 var(--accent-color);
 }
 
 /*Fading Background*/
@@ -466,8 +469,8 @@
 .ann-bg-fade:hover,
 .ann-bg-fade:focus,
 .ann-bg-fade:active {
-    background-color: #36FF78;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--main-color);
 }
 
 /*Skew Forward*/
@@ -565,7 +568,7 @@
 .ann-border-fade:hover,
 .ann-border-fade:focus,
 .ann-border-fade:active {
-    border: 2px solid #36FF78;
+    border: 2px solid var(--accent-color);
 }
 
 /*Forward*/
@@ -957,7 +960,7 @@
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    background: #36FF78;
+    background: var(--accent-color);
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.35s;
@@ -986,7 +989,7 @@
 .ann-rectangle-in:hover,
 .ann-rectangle-in:focus,
 .ann-rectangle-in:active {
-    color: white;
+    color: var(--main-color);
 }
 
 .ann-rectangle-in:hover:before,
@@ -1019,7 +1022,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #36FF78;
+    background: var(--accent-color);
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
@@ -1033,7 +1036,7 @@
 .ann-rectangle-out:hover,
 .ann-rectangle-out:focus,
 .ann-rectangle-out:active {
-    color: white;
+    color: var(--main-color);
 }
 
 .ann-rectangle-out:hover:before,
@@ -1051,7 +1054,7 @@
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    background: #36FF78;
+    background: var(--accent-color);
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.35s;
@@ -1083,7 +1086,7 @@
 .ann-shutter-in-horizontal:hover,
 .ann-shutter-in-horizontal:focus,
 .ann-shutter-in-horizontal:active {
-    color: white;
+    color: var(--main-color);
 }
 
 .ann-shutter-in-horizontal:hover:before,
@@ -1117,7 +1120,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #36FF78;
+    background: var(--accent-color);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
@@ -1133,7 +1136,7 @@
 .ann-shutter-out-horizontal:hover,
 .ann-shutter-out-horizontal:focus,
 .ann-shutter-out-horizontal:active {
-    color: white;
+    color: var(--main-color);
 }
 
 .ann-shutter-out-horizontal:hover:before,
@@ -1151,7 +1154,7 @@
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    background: #36FF78;
+    background: var(--accent-color);
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -1183,7 +1186,7 @@
 .ann-shutter-in-vertical:hover,
 .ann-shutter-in-vertical:focus,
 .ann-shutter-in-vertical:active {
-    color: white;
+    color: var(--main-color);
 }
 
 .ann-shutter-in-vertical:hover:before,
@@ -1217,7 +1220,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #36FF78;
+    background: var(--accent-color);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50%;
@@ -1233,7 +1236,7 @@
 .ann-shutter-out-vertical:hover,
 .ann-shutter-out-vertical:focus,
 .ann-shutter-out-vertical:active {
-    color: white;
+    color: var(--main-color);
 }
 
 .ann-shutter-out-vertical:hover:before,
@@ -1267,7 +1270,7 @@
     }
 
     100% {
-        box-shadow: 4px 4px 60px #36FF78;
+        box-shadow: 4px 4px 60px var(--accent-color);
     }
 }
 
@@ -1281,7 +1284,7 @@
     }
 
     100% {
-        box-shadow: 4px 4px 60px #36FF78;
+        box-shadow: 4px 4px 60px var(--accent-color);
     }
 }
 
@@ -1529,7 +1532,7 @@
 .ann-glow:hover,
 .ann-glow:focus,
 .ann-glow:active {
-    box-shadow: 0 1px 10px #36FF78;
+    box-shadow: 0 1px 10px var(--accent-color);
 }
 
 /* Shadow */
@@ -1773,7 +1776,7 @@
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #36FF78;
+    background: var(--accent-color);
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -1807,7 +1810,7 @@
     right: 0;
     left: 100%;
     bottom: 0;
-    background: #36FF78;
+    background: var(--accent-color);
     height: 4px;
     -webkit-transition-property: left;
     transition-property: left;
@@ -1841,7 +1844,7 @@
     left: 51%;
     right: 51%;
     bottom: 0;
-    background: #36FF78;
+    background: var(--accent-color);
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -1876,7 +1879,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #36FF78;
+    background: var(--accent-color);
     height: 4px;
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
@@ -2006,7 +2009,7 @@
 }
 
 .ann-corner-grow:hover {
-    box-shadow: 6px 6px 0 6px #36FF78, -6px -6px 0 6px #36FF78;
+    box-shadow: 6px 6px 0 6px var(--accent-color), -6px -6px 0 6px var(--accent-color);
 }
 
 /*Trim and Outline*/
@@ -2024,7 +2027,7 @@
 .ann-trim-outline:hover {
     background: #2ecc71;
     border: none;
-    box-shadow: 0 0 0 2px white, 0 0 0 3px #2ecc71, 0 0 0 2px white inset, 0 0 0 5px #2ecc71, 7.5px 7.5px 0 2.5px white, 10px 10px 0 5px #2ecc71;
+    box-shadow: 0 0 0 2px var(--main-color), 0 0 0 3px #2ecc71, 0 0 0 2px var(--main-color) inset, 0 0 0 5px #2ecc71, 7.5px 7.5px 0 2.5px var(--main-color), 10px 10px 0 5px #2ecc71;
 }
 
 /*Outlined Border*/
@@ -2040,7 +2043,7 @@
 }
 
 .ann-outlined-border:hover {
-    box-shadow: 0 0 0 1px white, 0 0 0 2px #2ecc71, 0 0 0 5px #2ecc71, 0 0 0 6.5px white, 0 0 0 7px #2ecc71;
+    box-shadow: 0 0 0 1px var(--main-color), 0 0 0 2px #2ecc71, 0 0 0 5px #2ecc71, 0 0 0 6.5px var(--main-color), 0 0 0 7px #2ecc71;
     border-radius: 100px;
     background: none;
     border: none;

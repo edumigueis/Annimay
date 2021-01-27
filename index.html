@@ -15,8 +15,8 @@
       <div class="main-title-wrapper">
         <div class="main-nav-wrapper">
           <nav class="main-nav">
-            <a href="#animations">Animations</a><a href="">Setup</a
-            ><a href="#tutorial">Tutorial</a><a href="">Setup</a>
+            <a href="#animations">Animations</a><a href="#tutorial">Tutorial</a
+            ><a href="#footer">About</a>
           </nav>
         </div>
 
@@ -26,7 +26,13 @@
           LESS.
         </p>
         <div class="action-buttons-wrapper">
-          <a href="https://github.com/edumigueis/Annimay" target="_blank" rel="noopener noreferrer" class="download-btn ann-scale-down-stay ann-shutter-out-vertical">Download on Github</a>
+          <a
+            href="https://github.com/edumigueis/Annimay"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="download-btn ann-scale-down-stay ann-shutter-out-vertical"
+            >Download on Github</a
+          >
         </div>
       </div>
 
@@ -40,7 +46,7 @@
           x="0px"
           y="0px"
           viewBox="0 0 459.325 459.325"
-          style="enable-background: new 0 0 459.325 459.325;"
+          style="enable-background: new 0 0 459.325 459.325"
           xml:space="preserve"
         >
           <g>
@@ -60,7 +66,7 @@
           x="0px"
           y="0px"
           viewBox="0 0 459.325 459.325"
-          style="enable-background: new 0 0 459.325 459.325;"
+          style="enable-background: new 0 0 459.325 459.325"
           xml:space="preserve"
         >
           <g>
@@ -126,33 +132,35 @@
           <button class="ann-outlined-border">Outlined Border</button>
         </div>
       </div>
-      <div class="infinite-effects-wrapper">
+      <div class="infinite-effects-wrapper separated-wrapper">
         <h2>Infinite Effects</h2>
         <div class="infinite-effects">
-          
           <div class="ann-rotate-clockwise-infinite styled-div">Rotate</div>
           <div class="ann-rotate-anticlockwise-infinite styled-div">Rotate</div>
-            <div class="ann-jump-infinite styled-div">Jump</div>
-            <div class="ann-wiggle-infinite styled-div">Wiggle</div>
-            <div class="ann-pulse-infinite styled-div">Pulse</div>
-            <div class="ann-bounce styled-div">Bounce</div>
-            <div class="ann-flash styled-div">Flash</div>
-            <div class="ann-hover styled-div">Hover</div>
-            <div class="ann-rotate-clockwise-3d styled-div">Rotate 3D</div>
-            <div class="ann-rotate-anticlockwise-3d styled-div">Rotate 3D</div>
-            <div class="ann-fall-left styled-div">Fall Left</div>
-            <div class="ann-fall-right styled-div">Fall Right</div>
-            <div class="ann-moving-gradient styled-simple">Moving Gradient</div>
-            <div class="ann-moving-gradient-opposite styled-simple">Outlined Border</div>
+          <div class="ann-jump-infinite styled-div">Jump</div>
+          <div class="ann-wiggle-infinite styled-div">Wiggle</div>
+          <div class="ann-pulse-infinite styled-div">Pulse</div>
+          <div class="ann-bounce styled-div">Bounce</div>
+          <div class="ann-flash styled-div">Flash</div>
+          <div class="ann-hover styled-div">Hover</div>
+          <div class="ann-rotate-clockwise-3d styled-div">Rotate 3D</div>
+          <div class="ann-rotate-anticlockwise-3d styled-div">Rotate 3D</div>
+          <div class="ann-moving-gradient styled-simple">Moving Gradient</div>
+          <div class="ann-moving-gradient-opposite styled-simple">
+            Outlined Border
+          </div>
         </div>
       </div>
+    </div>
+    <div id="footer" class="separated-wrapper footer">
+      <p>Developed and designed by <a href="https://github.com/edumigueis" target="_blank" rel="noopener noreferrer">Eduardo Migueis</a>. Copyright (c) 2020.</p>
     </div>
   </body>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Pacifico&display=swap");
 
     .styled-div {
-      background: linear-gradient(135deg, #36FF78 50%, #f9f9f9 50%);
+      background: linear-gradient(135deg, #36ff78 50%, #f9f9f9 50%);
       padding: 40px 20px;
       outline: none;
       border-radius: 50%;
@@ -248,8 +256,10 @@
       display: flex;
     }
 
-    .main-nav a {
+    .main-nav a{
       margin: 0 0.5rem;
+    }
+    a {
       color: #2f2e35;
       font-size: 16px;
       font-weight: 700;
@@ -257,7 +267,7 @@
       text-decoration: none;
     }
 
-    .main-nav a:visited {
+    a:visited {
       color: #ff5070;
     }
 
@@ -275,7 +285,7 @@
       border-radius: 50px;
       background: #5b5968;
       font-size: 17px;
-      color: #f9f9f9;
+      color: #f9f9f9 !important;
       font-weight: 700;
       font-family: "Open Sans";
       text-decoration: none;
@@ -317,8 +327,20 @@
       font-weight: 600;
       font-size: 16px;
     }
-    .infinite-effects-wrapper{
-        margin-top: 60px;
+    .separated-wrapper {
+      margin-top: 60px;
+    }
+    .footer{
+      background-color: #e2e2e2;
+      height: 60px;
+      width: 100%;
+    }
+    .footer p{
+      font-family: 'Open Sans';
+      font-size: 16px;
+      text-align: center;
+      font-weight: 600;
+      line-height: 60px;
     }
   </style>
 </html>

@@ -4,7 +4,8 @@
 
 [Demo](https://google.com)  |
 [Tutorial](https://google.com)
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+<br />
+This project consists of an extensive collections of simple css-powered animations, currently Annnimay has XX hover animations and 7 infinite animations.
 
 ![](./src/header.png)
 

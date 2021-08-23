@@ -1,77 +1,30 @@
 
  # Annimay
-> A collection of pure CSS3 lightweight animations that can be applied to links, sections, buttons and much more. Available in SCSS, CSS and LESS
+> A collection of pure CSS3 lightweight animations that can be applied to links, sections, buttons and much more. Available in CSS and SCSS.
 
 [Demo](https://google.com)  |
 [Tutorial](https://google.com)
 <br />
-This project consists of an extensive collections of simple css-powered animations, currently Annnimay has XX hover animations and 7 infinite animations.
+This project consists of an extensive collections of simple css-powered animations, currently Annnimay has 52 hover animations and 12 infinite animations.
 
 ![](./src/header.png)
 
-## Instalação
+## Installation
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Exemplo de uso
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
-
-_Para mais exemplos, consulte a [Wiki][wiki]._ 
-
-## Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-```sh
-make install
-npm test
-```
-
-## Histórico de lançamentos
-
-* 0.2.1
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1
-    * Trabalho em andamento
+You can just download the css files and use them in your project, either by linking or directly using the code. If you are not interested in using a lot of these annimations, they all have comments to name each one of them, so just look for the ones who suit your project the best and use them(make sure to credit, that's truly appreciated). They can all be customized to infinite and beyond. Enjoy! :smile:
 
 ## Meta
 
-Seu Nome – [@SeuNome](https://twitter.com/...) – SeuEmail@exemplo.com
+Eduardo Migueis – [edumigueis](https://www.linkedin.com/in/edumigueis/)
 
-Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
+Distributed under the MIT license. See `LICENSE` fore more information.
 
-[https://github.com/yourname/github-link](https://github.com/othonalberto/)
+[https://github.com/edumigueis/Annimay](https://github.com/edumigueis/)
 
 ## Contributing
 
-1. Faça o _fork_ do projeto (<https://github.com/yourname/yourproject/fork>)
-2. Crie uma _branch_ para sua modificação (`git checkout -b feature/fooBar`)
-3. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
-4. _Push_ (`git push origin feature/fooBar`)
-5. Crie um novo _Pull Request_
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/seunome/seuprojeto/wiki
+1. _fork_ the project (<https://github.com/edumigueis/Annimay/fork>)
+2. Create a _branch_ for your modification (`git checkout -b feature/awesomeFeature`)
+3. Do the _commit_ (`git commit -am 'Add something'`)
+4. _Push_ (`git push origin feature/awesomeFeature`)
+5. Create a new _Pull Request_

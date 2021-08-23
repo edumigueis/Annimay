@@ -2,10 +2,6 @@
  # Annimay
 > A collection of pure CSS3 lightweight animations that can be applied to links, sections, buttons and much more. Available in SCSS, CSS and LESS
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 [Demo](https://google.com)  |
 [Tutorial](https://google.com)
 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.

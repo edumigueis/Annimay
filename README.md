@@ -11,7 +11,7 @@ This project consists of an extensive collections of simple css-powered animatio
 
 ## Installation
 
-You can just download the css files and use them in your project, either by linking or directly using the code. If you are not interested in using a lot of these annimations, they all have comments to name each one of them, so just look for the ones who suit your project the best and use them(make sure to credit, that's truly appreciated). They can all be customized to infinite and beyond. Enjoy! :smile:
+You can just download the css files and use them in your project, either by linking or directly using the code. If you are not interested in using a lot of these annimations, they all have comments to name each one of them, so just look for the ones that suit your project best and use them(make sure to credit, that's truly appreciated). They can all be customized to infinite and beyond. Enjoy! :smile:
 
 ## Meta
 
